@@ -13,21 +13,21 @@ read dob
 
 
 clear
-cal
+cal >>o.txt
 
-echo "================================"
-echo "USER FORM"
-echo "================================"
+echo "================================" >>o.txt
+echo "USER FORM" >>o.txt
+echo "================================" >>o.txt
 
-echo "First name    : $name"
+echo "First name    : $name" >>o.txt
 
-echo "Second Name   : $second"
+echo "Second Name   : $second" >>o.txt
 
-echo "Address       : $add"
+echo "Address       : $add" >>o.txt
 
-echo "Your age is   : $age"
+echo "Your age is   : $age" >>o.txt
 
-echo "Date of Birth : $dob"
+echo "Date of Birth : $dob" >>o.txt
 
 
-echo "=============================="
+echo "==============================" >>o.txt
