@@ -72,18 +72,21 @@ $
 	 
 
 # File marks:
-'0  1  0  ~/bool.sh
-'1  29  47  ~/bool.sh
-'2  29  32  ~/number.sh
-'3  12  41  ~/lo.sh
-'4  1  0  ~/lo.sh
-'5  16  0  ~/lo.sh
-'6  18  1  ~/lo.sh
-'7  1  0  ~/calcal.sh
-'8  1  0  /web/calcal.sh
-'9  1  0  /web/login.sh
+'0  18  3  ~/case.sh
+'1  1  0  ~/calcal.sh
+'2  1  0  ~/bool.sh
+'3  29  47  ~/bool.sh
+'4  29  32  ~/number.sh
+'5  12  41  ~/lo.sh
+'6  1  0  ~/lo.sh
+'7  16  0  ~/lo.sh
+'8  18  1  ~/lo.sh
+'9  1  0  /web/calcal.sh
 
 # Jumplist (newest first):
+-'  18  3  ~/case.sh
+-'  1  0  ~/case.sh
+-'  1  0  ~/calcal.sh
 -'  1  0  ~/bool.sh
 -'  29  47  ~/bool.sh
 -'  29  32  ~/number.sh
@@ -92,7 +95,6 @@ $
 -'  1  0  ~/lo.sh
 -'  16  0  ~/lo.sh
 -'  18  1  ~/lo.sh
--'  1  0  ~/calcal.sh
 -'  1  0  /web/calcal.sh
 -'  1  0  /web/login.sh
 -'  9  9  ~/login.sh
@@ -184,6 +186,21 @@ $
 
 # History of marks within files (newest to oldest):
 
+> ~/case.sh
+	"	18	3
+	^	18	4
+	.	18	0
+	+	1	30
+	+	1	30
+	+	1	10
+	+	18	0
+
+> ~/calcal.sh
+	"	1	0
+	^	17	4
+	.	17	0
+	+	17	0
+
 > ~/bool.sh
 	"	1	0
 	^	29	48
@@ -249,12 +266,6 @@ $
 	+	17	4
 	+	15	4
 	+	12	41
-
-> ~/calcal.sh
-	"	1	0
-	^	17	4
-	.	17	0
-	+	17	0
 
 > /web/calcal.sh
 	"	1	0
